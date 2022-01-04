@@ -1,0 +1,48 @@
+TMDB API_KEY
+9209406cf4f6fc6140dbfb0b968880ca
+
+https://netflix-clone-5dba0.web.app/
+
+FIREBASE TOKEN
+1//0gcWX-QHiAqXbCgYIARAAGBASNwF-L9Ir12faqRUD4BV6tqe_hKFzqVwOcQWdC8XwF57RQjDKWoRYZTwfTKvqygFSALonrxefJGM
+
+
+// Import the functions you need from the SDKs you need
+
+import { initializeApp } from "firebase/app";
+
+import { getAnalytics } from "firebase/analytics";
+
+// TODO: Add SDKs for Firebase products that you want to use
+
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+
+// Your web app's Firebase configuration
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+const firebaseConfig = {
+
+  apiKey: "AIzaSyDhUwhrzIyEvXmDmz2jphY6bY-BqZSAU0s",
+
+  authDomain: "netflix-clone-5dba0.firebaseapp.com",
+
+  projectId: "netflix-clone-5dba0",
+
+  storageBucket: "netflix-clone-5dba0.appspot.com",
+
+  messagingSenderId: "993249871043",
+
+  appId: "1:993249871043:web:b4d56727aab9c2b2d3ce76",
+
+  measurementId: "G-7D74CPGYFK"
+
+};
+
+
+// Initialize Firebase
+
+const app = initializeApp(firebaseConfig);
+
+const analytics = getAnalytics(app);
