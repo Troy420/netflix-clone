@@ -5,12 +5,50 @@ import requests from "./requests";
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      {/* Nav */}
+
+      {/* Banner */}
       <Row
+        //props
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
+        isLargeRow
       />
-      <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
+      <Row
+        //props
+        title="Trending Now"
+        fetchUrl={requests.fetchTrending}
+      />
+      <Row
+        //props
+        title="Top Rated"
+        fetchUrl={requests.fetchTopRated}
+      />
+      <Row
+        //props
+        title="Action Movies"
+        fetchUrl={requests.fetchActionMovies}
+      />
+      <Row
+        //props
+        title="Comedy Movies"
+        fetchUrl={requests.fetchComedyMovies}
+      />
+      <Row
+        //props
+        title="Horror Movies"
+        fetchUrl={requests.fetchHorrorMovies}
+      />
+      <Row
+        //props
+        title="Romance Movies"
+        fetchUrl={requests.fetchRomanceMovies}
+      />
+      <Row
+        //props
+        title="Documentaries"
+        fetchUrl={requests.fetchDocumentaries}
+      />
     </div>
   );
 }
