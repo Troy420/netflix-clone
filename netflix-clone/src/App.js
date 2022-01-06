@@ -1,6 +1,8 @@
+import React from "react";
 import "./App.css";
 import Row from "./Row";
 import requests from "./requests";
+import Banner from "./Banner";
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
       {/* Nav */}
 
       {/* Banner */}
+      <Banner />
       <Row
         //props
         title="NETFLIX ORIGINALS"

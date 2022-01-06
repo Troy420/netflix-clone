@@ -24,7 +24,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
     // if [movies], loads again whenever movies changes
   }, [fetchUrl]);
 
-  console.log(movies);
+  // console.log(movies);
   return (
     <div className="row">
       {/* TITLE */}
